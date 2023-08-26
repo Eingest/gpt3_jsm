@@ -1,8 +1,32 @@
 // type "rafce" and press enter to create a Boilerplate Code Snippet
 import React from "react";
 
+import {
+  Blog,
+  Features,
+  Footer,
+  Header,
+  Possibility,
+  WhatGPT3,
+} from "./containers";
+import { Brand, CTA, Navbar } from "./components";
+
 const App = () => {
-  return <h1>GPT-3</h1>;
+  return (
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
