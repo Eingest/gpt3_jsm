@@ -1,6 +1,8 @@
 // type "rafce" and press enter to create a Boilerplate Code Snippet
 import React from "react";
 
+import "./App.css";
+import { Brand, CTA, Navbar } from "./components";
 import {
   Blog,
   Features,
@@ -9,7 +11,6 @@ import {
   Possibility,
   WhatGPT3,
 } from "./containers";
-import { Brand, CTA, Navbar } from "./components";
 
 const App = () => {
   return (
