@@ -1,4 +1,5 @@
 // type "rafce" and press enter to create a Boilerplate Code Snippet
+//shift + command + L -> multiple select
 import React from "react";
 
 import "./App.css";
